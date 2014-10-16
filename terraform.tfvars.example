@@ -1,0 +1,6 @@
+aws_access_key = ""
+aws_secret_key = ""
+do_token = ""
+key_path = ""
+ssh_key_id = ""
+cf_version = ""
