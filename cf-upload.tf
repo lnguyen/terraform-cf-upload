@@ -5,8 +5,8 @@ provider "digitalocean" {
 resource "digitalocean_droplet" "docker" {
     image = "docker"
     name = "docker"
-    region = "nyc2"
-    size = "2gb"
+    region = "nyc3"
+    size = "8gb"
     ssh_keys = ["${var.ssh_key_id}"]
     connection {
         user = "root"
