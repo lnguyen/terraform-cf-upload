@@ -3,7 +3,7 @@ provider "digitalocean" {
 }
 
 resource "digitalocean_droplet" "docker" {
-    image = "6734560"
+    image = "docker"
     name = "docker"
     region = "nyc2"
     size = "2gb"
